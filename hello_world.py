@@ -9,4 +9,4 @@ age=int(input("please enter your age "))
 print("your age is ", age)
 print()
 
-print(str("hello worl!"))
+print(str("Git is Awesome!"))
