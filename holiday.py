@@ -41,6 +41,8 @@ def plane_cost(city_flight):
         return 400
     elif city_flight == "paris":
         return 600
+    elif city_flight== "Italy":
+        return 250
     else:
         return 300  # For other cities there is a default price which is 300
 
@@ -54,7 +56,7 @@ def holiday_cost(hotel_cost, plane_cost, car_rental):
 
 def main():
     # Request user inputs about city, number of nights and and renting a car for how many days.
-    city_flight = input("Enter the city you will be flying to (e.g., istanbol, dubai, paris): ")
+    city_flight = input("Enter the city you will be flying to (e.g., istanbol, dubai, paris, Italy): ")
     num_nights = int(input("Enter the number of nights you will be staying at a hotel: "))
     rental_days = int(input("Enter the number of days for which you will be hiring a car: "))
 
