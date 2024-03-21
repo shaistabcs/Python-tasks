@@ -5,8 +5,10 @@
 
 name=input("please insert your name: ") #name variable that takes value from user by input function
 print("your name is ", name)
-age=int(input("please enter your age "))
+age=int(input("please enter your age: "))
 print("your age is ", age)
+address=str(input("please insert your address: "))
+print("your address is ", address)
 print()
 
 print(str("Task 20 Git branch and git checkout testing and git is awesome!"))
